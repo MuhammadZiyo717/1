@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f2d9f7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: white;
+}
+
+h2 {
+  color: #d3a4f7;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: nowrap;
+}
+
+.item {
+  width: 20px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 4px;
+}
+
+/* Qo‘shimcha variantlar */
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
